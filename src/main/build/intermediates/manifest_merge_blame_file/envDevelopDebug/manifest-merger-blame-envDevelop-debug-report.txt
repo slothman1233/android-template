@@ -1,0 +1,14 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cjjc.cjjc_business_cjjc" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="23"
+6-->/Users/wenliang/Documents/work/git/project/pctp/doctor/android/pctp-doctor-android/business/cjjc_business_cjjc/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->/Users/wenliang/Documents/work/git/project/pctp/doctor/android/pctp-doctor-android/business/cjjc_business_cjjc/src/main/AndroidManifest.xml
+8
+9    <application />
+9-->/Users/wenliang/Documents/work/git/project/pctp/doctor/android/pctp-doctor-android/business/cjjc_business_cjjc/src/main/AndroidManifest.xml:5:5-32
+10
+11</manifest>

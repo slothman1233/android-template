@@ -1,57 +1,11 @@
-//引用自定义Gradle
-apply from: "lib.gradle"
+apply from:"${rootProject.rootDir}/common.gradle"
 
-buildscript {
-    ext.kotlin_version = '1.7.0'
+android {
 
-    repositories {
-        google()
-        mavenCentral()
-        maven{
-            allowInsecureProtocol = true
-            url 'https://maven.aliyun.com/nexus/content/groups/public/'}
-        maven {
-            allowInsecureProtocol = true
-            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
-        }
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:7.2.1'
-        //kotlin支持
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        //事件注入
-        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.41'
-        //butterKnife插件
-        classpath 'com.jakewharton:butterknife-gradle-plugin:10.2.3'
-        //bugly异常上报
-        classpath 'com.tencent.bugly:crashreport:4.0.0'
-    }
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        maven{
-            allowInsecureProtocol = true
-            url 'https://maven.aliyun.com/nexus/content/groups/public/'}
-        maven {
-            allowInsecureProtocol = true
-            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
-        }
-        maven { url 'https://jitpack.io' }
-        //公司私服
-        maven {
-            allowInsecureProtocol = true
-            credentials {
-                username "android-user"
-                password "abc@123..."
-            }
-            url 'http://nexus.ops.hncjjc.cn/repository/android-plugin-public/'
-        }
+dependencies {
+    if (!project.isModuleDebug) {
+        implementation project(path: ':business:lib_public')
     }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
 }

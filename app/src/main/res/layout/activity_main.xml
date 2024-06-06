@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_xml_bg"
+    android:orientation="vertical">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88"
+        android:orientation="horizontal">
+
+        <com.cjjc.lib_widget.wid_clickanimview.BamLinearLayout
+            android:id="@+id/ll_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_home"
+                style="@style/StyleImage48"
+                android:src="@drawable/shape_main_menu_home_icon" />
+
+            <TextView
+                android:id="@+id/tv_home"
+                style="@style/TextStyle10_3a3a3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y2"
+                android:text="@string/main_menu_home" />
+        </com.cjjc.lib_widget.wid_clickanimview.BamLinearLayout>
+
+        <com.cjjc.lib_widget.wid_clickanimview.BamLinearLayout
+            android:id="@+id/ll_find"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_find"
+                style="@style/StyleImage48"
+                android:src="@drawable/shape_main_menu_find_icon" />
+
+            <TextView
+                android:id="@+id/tv_find"
+                style="@style/TextStyle10_979797"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y2"
+                android:text="@string/main_menu_find" />
+        </com.cjjc.lib_widget.wid_clickanimview.BamLinearLayout>
+
+        <com.cjjc.lib_widget.wid_clickanimview.BamLinearLayout
+            android:id="@+id/ll_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_me"
+                style="@style/StyleImage48"
+                android:src="@drawable/shape_main_menu_me_icon" />
+
+            <TextView
+                android:id="@+id/tv_me"
+                style="@style/TextStyle10_979797"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y2"
+                android:text="@string/main_menu_me" />
+        </com.cjjc.lib_widget.wid_clickanimview.BamLinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

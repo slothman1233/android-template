@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cjjc.lib_public">
+
+    <application>
+        <activity
+            android:name=".page.ErrorActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name="com.cjjc.lib_public.page.UpdateActivity"
+            android:theme="@style/my_Transparent"></activity>
+    </application>
+
+</manifest>

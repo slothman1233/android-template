@@ -1,0 +1,10 @@
+apply from:"${rootProject.rootDir}/common.gradle"
+
+android {
+
+}
+
+dependencies {
+    //公共业务库
+    api project(path: ':business:lib_public')
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name_release" translatable="false">#PROJECT_NAME#</string>
+    <string name="app_name_debug" translatable="false">#PROJECT_NAME#Debug</string>
+
+    <string name="main_menu_home" translatable="false">首页</string>
+    <string name="main_menu_find" translatable="false">发现</string>
+    <string name="main_menu_me" translatable="false">我的</string>
+</resources>

@@ -1,0 +1,13 @@
+apply from:"${rootProject.rootDir}/common.gradle"
+
+android {
+
+}
+
+dependencies {
+    if (!project.isModuleDebug) {
+        implementation project(path: ':business:lib_public')
+    }
+
+
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--文件布局颜色-->
+    <color name="color_xml_bg">#F7F7F7</color>
+    <!--主色调-->
+    <color name="color_main">#F6CE48</color>
+
+    <!--SnackBar提示弹窗的背景色-->
+    <color name="color_feedback_success">#13B887</color>
+    <color name="color_feedback_error">#CCEB4D5C</color>
+
+
+    <!-- 文字颜色-->
+    <color name="color_text_3a3a3a">#3A3A3A</color>
+    <color name="color_text_caac76">#CAAC76</color>
+    <color name="color_text_aa6e35">#AA6E35</color>
+    <color name="color_text_7e7e7e">#7E7E7E</color>
+    <color name="color_text_ff9234">#FF9234</color>
+    <!--提示文字颜色-->
+    <color name="color_text_979797">#979797</color>
+    <!--个人中心等级文字颜色-->
+    <color name="color_text_fae483">#FAE483</color>
+    <!--灰色线-->
+    <color name="color_e5e5e5">#E5E5E5</color>
+
+    <color name="color_f8d86d">#F8D86D</color>
+    <color name="color_fbebb6">#FBEBB6</color>
+    <color name="color_898989">#898989</color>
+    <color name="color_b8b8b8">#B8B8B8</color>
+    <color name="color_c4c4c4">#C4C4C4</color>
+    <color name="color_3e3021">#3E3021</color>
+    <color name="color_704e29">#704E29</color>
+    <color name="color_bf5624">#BF5624</color>
+    <color name="color_f7b753">#F7B753</color>
+    <color name="color_f18e39">#F18E39</color>
+    <color name="color_343436">#343436</color>
+    <color name="color_373df0">#373DF0</color>
+    <color name="color_f8ae16">#F8AE16</color>
+    <color name="color_294190">#294190</color>
+    <color name="color_a5a5a5">#A5A5A5</color>
+    <color name="color_68e3a2">#68E3A2</color>
+    <color name="color_68e3a2_40">#6068E3A2</color>
+    <color name="color_f7d951">#F7D951</color>
+    <color name="color_f2f2f2">#F2F2F2</color>
+    <color name="color_f7f7f7">#F7F7F7</color>
+    <color name="color_f4f1f4">#F4F1F4</color>
+    <color name="color_ea564c">#EA564C</color>
+    <color name="color_7b6723">#7B6723</color>
+    <color name="color_fdb73c">#FDB73C</color>
+    <color name="color_f36840">#F36840</color>
+    <color name="color_fce4c5">#FCE4C5</color>
+    <color name="color_38332f">#38332F</color>
+    <color name="color_f6dfb6">#F6DFB6</color>
+</resources>

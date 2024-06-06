@@ -1,0 +1,14 @@
+apply from:"${rootProject.rootDir}/common.gradle"
+
+android {
+
+}
+
+dependencies {
+    if (!project.isModuleDebug) {
+        //公共业务库
+        implementation project(path: ':business:lib_public')
+    }
+
+
+}
